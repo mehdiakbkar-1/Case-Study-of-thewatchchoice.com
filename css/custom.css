@@ -1,0 +1,32 @@
+/*----------------------------------------------------------------
+
+	Template Name: TheRN - Creative Agency HTML5 Template 
+	Version: 1.0
+
+-------------------------------------------------------------------------*/
+
+/** 
+ * Cursor
+ */
+
+.cursor {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    margin-top: -14px;
+    margin-left: -14px;
+    border: 1.5px solid rgba(0, 28, 67, 0.5);
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 1;
+    box-sizing: border-box;
+    transform: scale(1);
+    transition: transform .35s ease-out;
+    z-index: 999999999;
+}
+
+@media screen and (max-width: 1200px) {
+    .cursor {
+        display: none
+    }
+}
